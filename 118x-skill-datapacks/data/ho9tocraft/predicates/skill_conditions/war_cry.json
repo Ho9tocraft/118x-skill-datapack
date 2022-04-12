@@ -1,0 +1,10 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {"mainhand": {
+            "tag": "ho9tocraft:item_warcry_default",
+            "nbt": "{CustomModelData:0}"
+        }}
+    }
+}

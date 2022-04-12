@@ -1,5 +1,6 @@
 {
     "values": [
-        "ho9tocraft:installer/initialize_scoreboard"
+        "ho9tocraft:installer/initialize_scoreboard",
+        "ho9tocraft:installer/initialize_team"
     ]
 }
