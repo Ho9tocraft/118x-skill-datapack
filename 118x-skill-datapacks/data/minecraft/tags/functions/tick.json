@@ -1,5 +1,6 @@
 {
     "values": [
-        "ho9tocraft:initializer/initialize_personal_scoreboard"
+        "ho9tocraft:initializer/initialize_personal_scoreboard",
+        "ho9tocraft:skills/skill_common"
     ]
 }

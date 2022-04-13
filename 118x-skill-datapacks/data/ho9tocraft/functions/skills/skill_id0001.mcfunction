@@ -1,4 +1,5 @@
-#default: 咆哮
+#default: 咆哮／Howling
+execute as @s[predicate=ho9tocraft:skill_conditions/howling] at @s run playsound entity.wither.ambient player @a[distance=..16] ~ ~ ~
 execute as @s[predicate=ho9tocraft:skill_conditions/howling] at @s run effect give @s strength 5 0 false
 #RED→BLU,GRE,MOB
 execute as @s[predicate=ho9tocraft:skill_conditions/howling,team=RED] at @s as @e[predicate=ho9tocraft:team_conditions/not_red,distance=..3] at @s run effect give @s slowness 5 0 false
@@ -9,7 +10,8 @@ execute as @s[predicate=ho9tocraft:skill_conditions/howling,team=BLU] at @s as @
 #MOB→RED,GRE,BLU
 execute as @s[predicate=ho9tocraft:skill_conditions/howling,team=MOB] at @s as @e[predicate=ho9tocraft:team_conditions/not_mob,distance=..3] at @s run effect give @s slowness 5 0 false
 
-#亜種: 獣の咆哮
+#亜種: 獣の咆哮／Beast Howling
+execute as @s[predicate=ho9tocraft:skill_conditions/beast_howling] at @s run playsound entity.wither.ambient player @a[distance=..16] ~ ~ ~
 execute as @s[predicate=ho9tocraft:skill_conditions/beast_howling] at @s run effect give @s strength 5 0 false
 #RED→BLU,GRE,MOB
 execute as @s[predicate=ho9tocraft:skill_conditions/beast_howling,team=RED] at @s as @e[predicate=ho9tocraft:team_conditions/not_red,distance=..5] at @s run effect give @s slowness 5 1 false

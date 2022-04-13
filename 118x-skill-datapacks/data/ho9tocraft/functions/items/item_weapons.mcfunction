@@ -40,3 +40,10 @@ give @s golden_sword{CustomModelData:0, delay:256, cast:16} 1
 #Cast: 12 ticks
 
 give @s wooden_hoe{CustomModelData:0, delay:212, cast:12} 1
+
+#戦技ID: 0003 構え
+#使用武器: 鉄の剣[デフォルト]
+#Delay: 178 ticks
+#Cast: 18 ticks
+
+give @s iron_sword{CustomModelData:0, delay:178, cast:18} 1

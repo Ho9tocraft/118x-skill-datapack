@@ -1,5 +1,8 @@
 {
     "values": [
-        "ho9tocraft:skills/skill_id0000"
+        "ho9tocraft:skills/skill_id0000",
+        "ho9tocraft:skills/skill_id0001",
+        "ho9tocraft:skills/skill_id0002",
+        "ho9tocraft:skills/skill_id0003"
     ]
 }
