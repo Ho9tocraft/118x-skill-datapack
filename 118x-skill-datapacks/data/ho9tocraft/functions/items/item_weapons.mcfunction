@@ -54,7 +54,7 @@ give @s iron_sword{CustomModelData:0, delay:178, cast:18,CanDestroy:["minecraft:
 #Cast: Instant
 
 give @s diamond_sword{CustomModelData:0, delay:60, cast:0,CanDestroy:["minecraft:end_stone_bricks"],Enchantments:[{id:"minecraft:efficiency",lvl:10s}]} 1
-give @s diamond_sword{CustomModelData:1, delay:60, cast:0,display:{Name:'{"text": "Deathbringer Ultima","color": "#bbdbf3","bold": true,"italic": false}'},CanDestroy:["minecraft:end_stone_bricks"],Enchantments:[{id:"minecraft:efficiency",lvl:10s}]} 1
+give @s diamond_sword{CustomModelData:1, delay:60, cast:0, display:{Name:'{"text": "Deathbringer Ultima","color": "#bbdbf3","bold": true,"italic": false}'},CanDestroy:["minecraft:end_stone_bricks"],Enchantments:[{id:"minecraft:efficiency",lvl:10s},{id:"minecraft:sharpness",lvl:5s}]} 1
 
 #戦技ID: 0005 地より湧き出る奔流
 #使用武器: 金のくわ[デフォルト]
@@ -62,3 +62,10 @@ give @s diamond_sword{CustomModelData:1, delay:60, cast:0,display:{Name:'{"text"
 #Cast: 120 ticks
 
 give @s golden_hoe{CustomModelData:0, delay:1320, cast:120,CanDestroy:["minecraft:end_stone_bricks"],Enchantments:[{id:"minecraft:efficiency",lvl:10s}]} 1
+
+#戦技ID: 0006 ハイパーノヴァ
+#使用武器: 金のくわ[メテオリックケーン・ドラグノイド(CMD:1)]
+#Delay: 2460 ticks
+#Cast: 60 ticks
+
+give @s golden_hoe{CustomModelData:1, delay:2460, cast:60, display:{Name:'{"text": "Meteoric Cane: Dragonoids","color": "#f6ae54","bold": true,"italic": false}'}, CanDestroy:["minecraft:end_stone_bricks"],Enchantments:[{id:"minecraft:efficiency",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0.2,Name:"generic.movement_speed",Operation:1,Slot:"mainhand",UUID:[I;10000,15000,20000,25000]},{AttributeName:"generic.knockback_resistance",Amount:-0.2,Name:"generic.knockback_resistance",Operation:1,Slot:"mainhand",UUID:[I;10001,15001,20001,25001]}]} 1
