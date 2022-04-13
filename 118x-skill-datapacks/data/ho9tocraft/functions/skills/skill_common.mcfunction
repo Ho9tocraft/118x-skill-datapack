@@ -26,4 +26,4 @@ execute if score ^WorldHelper tick = ^WorldHelper __TICK_SEC__ run scoreboard pl
 execute as @a at @s run scoreboard players operation @s skill_second = @s skill_cd
 execute as @a at @s run scoreboard players operation @s skill_second /= ^WorldHelper __TICK_SEC__
 execute as @a[scores={skill_cd=1..}] at @s run scoreboard players add @s skill_second 1
-execute as @a at @s run title @s actionbar ["",{"text":"Skills cooldown remaining","color":"#FFFF00"},{"text":": "},{"score":{"name":"@s","objective":"skill_second"},"color": "#ff8c00"}]
+execute as @a at @s run title @s actionbar ["",{"text":"Skills cooldown remaining","color":"#FFFF00"},{"text":": "},{"score":{"name":"@s","objective":"skill_second"},"color": "#ff8c00"},{"text": " Cast Time","color": "#ffff00"},{"text": ": "},{"score":{"name": "@s","objective": "skill_cast"},"color": "fcc800"}]

@@ -47,3 +47,18 @@ give @s wooden_hoe{CustomModelData:0, delay:212, cast:12} 1
 #Cast: 18 ticks
 
 give @s iron_sword{CustomModelData:0, delay:178, cast:18} 1
+
+#戦技ID: 0004 踏み込み
+#使用武器: ダイヤの剣[デフォルト,デスブリンガー・アルテマ(CMD:1)]
+#Delay: 60 ticks
+#Cast: Instant
+
+give @s diamond_sword{CustomModelData:0, delay:60, cast:0} 1
+give @s diamond_sword{CustomModelData:1, delay:60, cast:0,display:{Name:'{"text": "Deathbringer Ultima","color": "#bbdbf3","bold": true,"italic": false}'}} 1
+
+#戦技ID: 0005 地より湧き出る奔流
+#使用武器: 金のくわ[デフォルト]
+#Delay: 1320 ticks
+#Cast: 120 ticks
+
+give @s golden_hoe{CustomModelData:0, delay:1320, cast:120} 1
