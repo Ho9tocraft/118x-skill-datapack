@@ -1,0 +1,4 @@
+execute as @s[predicate=ho9tocraft:skill_conditions/acid_surge] at @s run particle dust 0.000 0.000 0.000 1 ~ ~1 ~ 3 3 3 1 100 normal
+execute as @s[predicate=ho9tocraft:skill_conditions/acid_surge,team=RED] at @s as @a[predicate=ho9tocraft:team_conditions/not_red] if predicate ho9tocraft:randomizer/random_tenthpart run effect give @s instant_damage 1 9 false
+execute as @s[predicate=ho9tocraft:skill_conditions/acid_surge,team=GRE] at @s as @a[predicate=ho9tocraft:team_conditions/not_gre] if predicate ho9tocraft:randomizer/random_tenthpart run effect give @s instant_damage 1 9 false
+execute as @s[predicate=ho9tocraft:skill_conditions/acid_surge,team=BLU] at @s as @a[predicate=ho9tocraft:team_conditions/not_blu] if predicate ho9tocraft:randomizer/random_tenthpart run effect give @s instant_damage 1 9 false

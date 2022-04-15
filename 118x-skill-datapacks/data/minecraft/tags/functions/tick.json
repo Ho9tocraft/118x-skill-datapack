@@ -1,6 +1,7 @@
 {
     "values": [
         "ho9tocraft:initializer/initialize_personal_scoreboard",
-        "ho9tocraft:skills/skill_common"
+        "ho9tocraft:skills/skill_common",
+        "ho9tocraft:games/games_timeline"
     ]
 }

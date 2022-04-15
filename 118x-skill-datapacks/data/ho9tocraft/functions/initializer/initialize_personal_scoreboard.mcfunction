@@ -15,7 +15,7 @@ execute as @a[scores={logout=1..}] at @s run scoreboard players set @a skill_sec
 execute as @a[scores={logout=1..}] at @s run scoreboard players set @a mobKillCount 0
 execute as @a[scores={logout=1..}] at @s run scoreboard players set @a death 0
 execute as @a[scores={logout=1..}] at @s run clear @s
-execute as @a[scores={logout=1..}] at @s run tp @s @e[type=armor_stand,limit=1,tag=spawn]
+execute as @a[scores={logout=1..}] at @s run tp @s @e[type=armor_stand,limit=1,tag=SPAWN_LBY]
 
 scoreboard players reset @a logout
 
