@@ -1,5 +1,5 @@
 execute as @a[scores={death=1..}] at @s run effect give @s strength 40 3 false
-execute as @a[scores={death=1..}] at @s run effect give @s resistance 20 0 false
+execute as @a[scores={death=1..}] at @s run effect give @s resistance 20 4 false
 execute as @a[scores={death=1..}] at @s run effect give @s invisibility 20 0 false
 execute as @a[scores={death=1..}] at @s run effect give @s weakness 30 255 false
 
