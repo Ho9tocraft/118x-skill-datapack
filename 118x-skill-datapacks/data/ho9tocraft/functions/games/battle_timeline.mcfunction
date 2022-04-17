@@ -44,6 +44,12 @@ execute positioned -58 90 -154 if block ~ ~ ~ end_stone_bricks if score 赤チ�
 execute positioned -72 67 -41 if block ~ ~ ~ end_stone_bricks if score 緑チーム teamCore matches 1001.. if score ^WorldHelper teamCoreRevive matches 0 run scoreboard players set 緑チーム teamCore 1000
 execute positioned 57 66 -161 if block ~ ~ ~ end_stone_bricks if score 青チーム teamCore matches 1001.. if score ^WorldHelper teamCoreRevive matches 0 run scoreboard players set 青チーム teamCore 1000
 
+execute if score ^WorldHelper tick matches 0 if score ^WorldHelper teamCoreRevive matches 1.. run scoreboard players remove ^WorldHelper teamCoreRevive 1
+
+execute positioned -58 90 -154 if block ~ ~ ~ air if score 赤チーム teamCore matches 1.. run scoreboard players set ^WorldHelper teamCoreRevive 10
+execute positioned -72 67 -41 if block ~ ~ ~ air if score 緑チーム teamCore matches 1.. run scoreboard players set ^WorldHelper teamCoreRevive 10
+execute positioned 57 66 -161 if block ~ ~ ~ air if score 青チーム teamCore matches 1.. run scoreboard players set ^WorldHelper teamCoreRevive 10
+
 execute positioned -58 90 -154 if block ~ ~ ~ air if score 赤チーム teamCore matches 1.. run scoreboard players remove 赤チーム teamCore 100
 execute positioned -72 67 -41 if block ~ ~ ~ air if score 緑チーム teamCore matches 1.. run scoreboard players remove 緑チーム teamCore 100
 execute positioned 57 66 -161 if block ~ ~ ~ air if score 青チーム teamCore matches 1.. run scoreboard players remove 青チーム teamCore 100

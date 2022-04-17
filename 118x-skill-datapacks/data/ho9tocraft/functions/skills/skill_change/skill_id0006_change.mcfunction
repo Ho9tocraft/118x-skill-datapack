@@ -1,0 +1,8 @@
+#デスペラ・メテオライト
+execute as @s[team=RED,predicate=ho9tocraft:skill_conditions/hypernova] at @s as @e[type=!#undead,predicate=ho9tocraft:team_conditions/not_red,distance=..30] at @s as @e[type=!#undead,predicate=ho9tocraft:team_conditions/not_red,distance=..5] at @s run effect give @s wither 100 3 false
+execute as @s[team=GRE,predicate=ho9tocraft:skill_conditions/hypernova] at @s as @e[type=!#undead,predicate=ho9tocraft:team_conditions/not_gre,distance=..30] at @s as @e[type=!#undead,predicate=ho9tocraft:team_conditions/not_gre,distance=..5] at @s run effect give @s wither 100 3 false
+execute as @s[team=BLU,predicate=ho9tocraft:skill_conditions/hypernova] at @s as @e[type=!#undead,predicate=ho9tocraft:team_conditions/not_blu,distance=..30] at @s as @e[type=!#undead,predicate=ho9tocraft:team_conditions/not_blu,distance=..5] at @s run effect give @s wither 100 3 false
+
+execute as @s[team=RED,predicate=ho9tocraft:skill_conditions/hypernova] at @s as @e[type=!#undead,predicate=ho9tocraft:team_conditions/not_red,distance=..30] at @s run particle dust_color_transition 0.918 0.333 0.024 1 0.886 0.016 0.106 ~ ~1 ~ 5 5 5 1 1600 normal @a[distance=..50]
+execute as @s[team=GRE,predicate=ho9tocraft:skill_conditions/hypernova] at @s as @e[type=!#undead,predicate=ho9tocraft:team_conditions/not_gre,distance=..30] at @s run particle dust_color_transition 0.918 0.333 0.024 1 0.886 0.016 0.106 ~ ~1 ~ 5 5 5 1 1600 normal @a[distance=..50]
+execute as @s[team=BLU,predicate=ho9tocraft:skill_conditions/hypernova] at @s as @e[type=!#undead,predicate=ho9tocraft:team_conditions/not_blu,distance=..30] at @s run particle dust_color_transition 0.918 0.333 0.024 1 0.886 0.016 0.106 ~ ~1 ~ 5 5 5 1 1600 normal @a[distance=..50]
