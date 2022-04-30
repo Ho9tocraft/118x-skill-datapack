@@ -69,3 +69,24 @@ give @s golden_hoe{CustomModelData:0, delay:1320, cast:120,CanDestroy:["minecraf
 #Cast: 60 ticks
 
 give @s golden_hoe{CustomModelData:1, delay:2460, cast:60, display:{Name:'{"text": "Meteoric Cane: Dragonoids","color": "#f6ae54","bold": true,"italic": false}'}, CanDestroy:["minecraft:end_stone_bricks"],Enchantments:[{id:"minecraft:efficiency",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0.2,Name:"generic.movement_speed",Operation:1,Slot:"mainhand",UUID:[I;10000,15000,20000,25000]},{AttributeName:"generic.knockback_resistance",Amount:-0.2,Name:"generic.knockback_resistance",Operation:1,Slot:"mainhand",UUID:[I;10001,15001,20001,25001]}]} 1
+
+#戦技ID: 0007 狼の剣技
+#使用武器: ネザライトの剣[デフォルト]
+#Delay: 256 ticks
+#Cast: 16 ticks
+
+give @s netherite_sword{CustomModelData:0, delay:256, cast:16, CanDestroy:["end_stone_bricks"],Enchantments:[{id:"minecraft:efficiency",lvl:10s}]} 1
+
+#戦技ID: 0008 残り火
+#使用武器: ネザライトの剣[真伝・結月刀「付喪」／淨(CMD:1)]
+#Delay: 720 ticks
+#Cast: 120 ticks
+
+give @s netherite_sword{CustomModelData:1, delay:720, cast:120, CanDestroy:["end_stone_bricks"],Enchantments:[{id:"minecraft:sharpness",lvl:10s},{id:"efficiency",lvl:10s}],display:{Name:'{"text": "Divine Firelinkers\' Right-Hand Blade","color": "#fdeff2","bold": true,"italic": false}'}}
+
+#戦技ID: 0009 月光の奔流
+#使用武器: ダイヤの剣[禊祓刀「月光」(CMD:2)]
+#Delay: 720 ticks
+#Cast: 120 ticks
+
+give @s diamond_sword{CustomModelData:2, delay:720, cast:120, CanDestroy:["minecraft:end_stone_bricks"],Enchantments:[{id:"sharpness",lvl:6s},{id:"efficiency",lvl:10s}],display:{Name:'{"text": "Moonlight Slashblade","color": "#028760","bold": true,"italic": false}'}}

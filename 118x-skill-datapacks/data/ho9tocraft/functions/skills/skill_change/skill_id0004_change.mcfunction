@@ -1,5 +1,5 @@
-execute as @s[predicate=ho9tocraft:skill_conditions/stance_greatsword,distance=..3] at @s run effect clear @s strength
-execute as @s[predicate=ho9tocraft:skill_conditions/stance_greatsword,distance=..3] at @s run function ho9tocraft:skills/effect/skill_changed/vortex
+execute as @s[predicate=ho9tocraft:skill_conditions/stance_greatsword] at @s run effect clear @s strength
+execute as @s[predicate=ho9tocraft:skill_conditions/stance_greatsword] at @s run function ho9tocraft:skills/effect/skill_changed/vortex
 #ここからシャドウブリンガー専用
 execute as @s[team=RED,distance=..3] at @s positioned ^ ^ ^3 as @a[predicate=ho9tocraft:team_conditions/not_red,distance=..3] at @s if predicate ho9tocraft:randomizer/random_tenthpart run effect give @s slowness 3 9 false
 execute as @s[team=RED,distance=..3] at @s positioned ^ ^ ^4 as @a[predicate=ho9tocraft:team_conditions/not_red,distance=..3] at @s if predicate ho9tocraft:randomizer/random_tenthpart run effect give @s slowness 3 9 false
